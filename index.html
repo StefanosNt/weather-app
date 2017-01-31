@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Random Quote Generator</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/weather-app.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/weather-app.js"></script>
+  </head>
+  <body>  
+    <div id="main">    
+      <div id="temp" class="col-xs-12">
+        <div  class="pull-left" >
+          <h1 id="mainTemp">temp</h1>
+          <h4 id="city">cty</h4>
+        </div>
+        <div id="tempData" class="pull-right text-center">
+          <h5 id="humidity">humid</h5>
+          <h5 id="description">desc</h5>
+        </div>
+      </div>
+      <div id="avgTemp" class="col-xs-12">
+        <div class="pull-left" ><h4 id="minTemp">x</h4></div>
+        <div class="pull-right"><h4 id="maxTemp">y</h4></div> 
+      </div> 
+      <div id="metricDiv" class="col-xs-12">
+        <div class="metric hover celc pull-left"><h1 id="celcius">&#8451</h1></div>
+        <div class="metric pull-left "><h1 id="fahrenheit">&#8457</h1></div>
+      </div>
+    </div> 
+  </body>
+</html>
